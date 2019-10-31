@@ -1,0 +1,32 @@
+    1  pwd
+    2  cd ..
+    3  cd..
+    4  ll
+    5  cd..
+    6  cd ..
+    7  ll
+    8  mkdir r-programming
+    9  cd r-programming/
+   10  git config 
+   11  git config  --global user.name "Rafael Lanza"
+   12  git config --global user.email "rafinhaln82@gmail.com"
+   13  git config --list 
+   14  git clone https://github.com/rafaellanza82/curso_r.git
+   15  ls
+   16  git branch
+   17  history 
+   18  history > primeiroarivo.txt
+   19  vim primeiroarivo.txt 
+   20  git init
+   21  git add -A
+   22  git add .
+   23  ls
+   24  git add primeiroarivo.txt 
+   25  git commit -m "Iniciando repositório"
+   26  git remote add origin https://github.com/rafaellanza82/curso_r.git
+   27  git push 
+   28  git push -u origin master
+   29  git push -u origin master
+   30  git checkout -b regressionmodules
+   31  history 
+   32  history > primeiroarquivoregressionmodules.txt
